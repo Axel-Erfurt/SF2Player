@@ -21,3 +21,5 @@ Then choose a soundfont in the ComboBox.
 Then simply press the start button.
 
 The last used sound font, the window size and position is saved on exit.
+
+![Screenshot](https://github.com/Axel-Erfurt/SF2Player/blob/main/screenshot.png?raw=true)
