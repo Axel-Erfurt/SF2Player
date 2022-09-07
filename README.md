@@ -7,7 +7,7 @@ I wrote it to simply play my midi keyboard on Linux with fluidsynth using pulsea
 
 * python3
 * PyQt5
-* fluidsynth
+* [fluidsynth](https://github.com/FluidSynth/fluidsynth)
 * Soundfont Files (sf2)
 
 ## Usage
