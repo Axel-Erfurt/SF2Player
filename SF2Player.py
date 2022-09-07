@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #####################################################################
 import os
@@ -120,8 +120,7 @@ class MainWindow(QMainWindow):
     def start_playing(self):
         if not self.sf2_file == "":
             if self.btn_start.text() == "Start":
-                self.btn_open.setVisible(False)
-                self.combo_sf2.setVisible(False)
+                self.tb.setVisible(False)
                 self.btn_start.setText("Stop")
                 self.btn_start.setIcon(QIcon("piano_stop.png"))
                 print("fluidsynth", " ".join(self.cmd_start))
@@ -133,8 +132,7 @@ class MainWindow(QMainWindow):
                 self.btn_start.setText("Start")
                 self.btn_start.setIcon(QIcon("piano.png"))
                 self.process.kill()
-                self.btn_open.setVisible(True)
-                self.combo_sf2.setVisible(True)
+                self.tb.setVisible(True)
                 self.statusBar().showMessage("Server stopped")
                 self.is_running = False
 
