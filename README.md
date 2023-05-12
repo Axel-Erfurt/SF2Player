@@ -23,3 +23,9 @@ Then simply press the start button.
 The last used sound font, the window size and position is saved on exit.
 
 ![Screenshot](https://github.com/Axel-Erfurt/SF2Player/blob/main/screenshot.png?raw=true)
+
+### SF2PlayerS.py
+
+can use jack
+
+![Screenshot](https://github.com/Axel-Erfurt/SF2Player/blob/main/screenshot2.png?raw=true)
