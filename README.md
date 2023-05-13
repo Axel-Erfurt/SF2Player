@@ -16,6 +16,11 @@ Start it with
 
     python3 /path/to/SF2Player.py
 
+or for Gtk Version
+
+    cd /path/to/SF2Player_Gtk.py
+    python3 ./SF2Player_Gtk.py
+    
 After the first start, select a folder with soundfonts with the *Open* button.
 Then choose a soundfont in the ComboBox.
 Then simply press the start button.
